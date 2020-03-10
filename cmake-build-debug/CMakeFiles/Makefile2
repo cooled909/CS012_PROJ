@@ -43,10 +43,17 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = D:\projects\BBoardProject
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = D:\projects\BBoardProject\cmake-build-debug
+>>>>>>> desktop 3/9 11:59 p
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +80,24 @@ preinstall:
 CMakeFiles/CS012_PROJ.dir/all:
 	$(MAKE) -f CMakeFiles\CS012_PROJ.dir\build.make CMakeFiles/CS012_PROJ.dir/depend
 	$(MAKE) -f CMakeFiles\CS012_PROJ.dir\build.make CMakeFiles/CS012_PROJ.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CS012_PROJ"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CS012_PROJ"
+>>>>>>> desktop 3/9 11:59 p
 .PHONY : CMakeFiles/CS012_PROJ.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CS012_PROJ.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles 7
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CS012_PROJ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\BBoardProject\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CS012_PROJ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\BBoardProject\cmake-build-debug\CMakeFiles 0
+>>>>>>> desktop 3/9 11:59 p
 .PHONY : CMakeFiles/CS012_PROJ.dir/rule
 
 # Convenience name for target.

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/CMakeFiles/CS012_PROJ.dir
 C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+D:/projects/BBoardProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/projects/BBoardProject/cmake-build-debug/CMakeFiles/CS012_PROJ.dir
+D:/projects/BBoardProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> desktop 3/9 11:59 p

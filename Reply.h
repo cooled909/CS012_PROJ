@@ -2,8 +2,13 @@
 // Created by eddie on 3/8/2020.
 //
 
+<<<<<<< HEAD
 #ifndef _REPLY_H
 #define _REPLY_H
+=======
+#ifndef __REPLY_H__
+#define __REPLY_H__
+>>>>>>> desktop 3/9 11:59 p
 
 #include <string>
 #include "Message.h"

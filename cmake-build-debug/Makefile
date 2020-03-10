@@ -47,10 +47,17 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = D:\projects\BBoardProject
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = D:\projects\BBoardProject\cmake-build-debug
+>>>>>>> desktop 3/9 11:59 p
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +86,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\BBoardProject\cmake-build-debug\CMakeFiles D:\projects\BBoardProject\cmake-build-debug\CMakeFiles\progress.marks
+	$(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\BBoardProject\cmake-build-debug\CMakeFiles 0
+>>>>>>> desktop 3/9 11:59 p
 .PHONY : all
 
 # The main clean target

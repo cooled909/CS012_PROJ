@@ -1,6 +1,11 @@
 //User.h
 
 // Don't forget inclusion guard
+<<<<<<< HEAD
+=======
+#ifndef __USER_H__
+#define __USER_H__
+>>>>>>> desktop 3/9 11:59 p
 
 #include <string>
 
@@ -45,3 +50,8 @@ class User {
   void changePass(string pass);  
 
 };
+<<<<<<< HEAD
+=======
+
+#endif
+>>>>>>> desktop 3/9 11:59 p

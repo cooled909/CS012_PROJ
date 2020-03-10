@@ -4,12 +4,23 @@
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../BBoard.cpp
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../BBoard.h
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../Message.h
+<<<<<<< HEAD
+=======
+CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../Reply.h
+>>>>>>> desktop 3/9 11:59 p
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../Topic.h
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../User.h
 
 CMakeFiles/CS012_PROJ.dir/Message.cpp.obj: ../Message.cpp
 CMakeFiles/CS012_PROJ.dir/Message.cpp.obj: ../Message.h
 
+<<<<<<< HEAD
+=======
+CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: ../Message.h
+CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: ../Reply.cpp
+CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: ../Reply.h
+
+>>>>>>> desktop 3/9 11:59 p
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: ../Message.h
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: ../Topic.cpp
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: ../Topic.h
@@ -19,6 +30,10 @@ CMakeFiles/CS012_PROJ.dir/User.cpp.obj: ../User.h
 
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../BBoard.h
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../Message.h
+<<<<<<< HEAD
+=======
+CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../Reply.h
+>>>>>>> desktop 3/9 11:59 p
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../Topic.h
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../User.h
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../main.cpp

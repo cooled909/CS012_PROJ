@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 C:/Users/eddie/CLionProjects/CS012_PROJ/BBoard.cpp
+=======
+D:/projects/BBoardProject/BBoard.cpp
+>>>>>>> desktop 3/9 11:59 p
 string
 -
 vector
@@ -16,26 +20,43 @@ iostream
 fstream
 -
 BBoard.h
+<<<<<<< HEAD
 C:/Users/eddie/CLionProjects/CS012_PROJ/BBoard.h
 Topic.h
 C:/Users/eddie/CLionProjects/CS012_PROJ/Topic.h
 
 C:/Users/eddie/CLionProjects/CS012_PROJ/BBoard.h
+=======
+D:/projects/BBoardProject/BBoard.h
+
+D:/projects/BBoardProject/BBoard.h
+>>>>>>> desktop 3/9 11:59 p
 string
 -
 vector
 -
 Topic.h
+<<<<<<< HEAD
 C:/Users/eddie/CLionProjects/CS012_PROJ/Topic.h
 User.h
 C:/Users/eddie/CLionProjects/CS012_PROJ/User.h
 
 C:/Users/eddie/CLionProjects/CS012_PROJ/Message.h
+=======
+D:/projects/BBoardProject/Topic.h
+User.h
+D:/projects/BBoardProject/User.h
+Reply.h
+D:/projects/BBoardProject/Reply.h
+
+D:/projects/BBoardProject/Message.h
+>>>>>>> desktop 3/9 11:59 p
 string
 -
 vector
 -
 
+<<<<<<< HEAD
 C:/Users/eddie/CLionProjects/CS012_PROJ/Topic.h
 string
 -
@@ -43,6 +64,21 @@ Message.h
 C:/Users/eddie/CLionProjects/CS012_PROJ/Message.h
 
 C:/Users/eddie/CLionProjects/CS012_PROJ/User.h
+=======
+D:/projects/BBoardProject/Reply.h
+string
+-
+Message.h
+D:/projects/BBoardProject/Message.h
+
+D:/projects/BBoardProject/Topic.h
+string
+-
+Message.h
+D:/projects/BBoardProject/Message.h
+
+D:/projects/BBoardProject/User.h
+>>>>>>> desktop 3/9 11:59 p
 string
 -
 

@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -30,11 +31,39 @@
 			<Target title="CS012_PROJ">
 				<Option output="C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/CS012_PROJ.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug"/>
+=======
+				<Option working_dir="D:/projects/BBoardProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/projects/BBoardProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS012_PROJ">
+				<Option output="D:/projects/BBoardProject/cmake-build-debug/CS012_PROJ.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/BBoardProject/cmake-build-debug"/>
+>>>>>>> desktop 3/9 11:59 p
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="C:/Users/eddie/CLionProjects/CS012_PROJ/."/>
+=======
+					<Add directory="D:/projects/BBoardProject/."/>
+>>>>>>> desktop 3/9 11:59 p
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -43,6 +72,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS012_PROJ"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -52,11 +82,26 @@
 			<Target title="CS012_PROJ/fast">
 				<Option output="C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/CS012_PROJ.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug"/>
+=======
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS012_PROJ"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS012_PROJ/fast">
+				<Option output="D:/projects/BBoardProject/cmake-build-debug/CS012_PROJ.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/BBoardProject/cmake-build-debug"/>
+>>>>>>> desktop 3/9 11:59 p
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="C:/Users/eddie/CLionProjects/CS012_PROJ/."/>
+=======
+					<Add directory="D:/projects/BBoardProject/."/>
+>>>>>>> desktop 3/9 11:59 p
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -65,6 +110,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS012_PROJ/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -116,6 +162,59 @@
 			<Option target="CS012_PROJ"/>
 		</Unit>
 		<Unit filename="C:/Users/eddie/CLionProjects/CS012_PROJ/CMakeLists.txt">
+=======
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS012_PROJ/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/projects/BBoardProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/projects/BBoardProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/projects/BBoardProject/BBoard.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/BBoard.h">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Message.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Message.h">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Reply.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Reply.h">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Topic.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/Topic.h">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/User.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/User.h">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/main.cpp">
+			<Option target="CS012_PROJ"/>
+		</Unit>
+		<Unit filename="D:/projects/BBoardProject/CMakeLists.txt">
+>>>>>>> desktop 3/9 11:59 p
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
