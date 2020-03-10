@@ -42,10 +42,17 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = D:\projects\BBoardProject
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = D:\projects\BBoardProject\cmake-build-debug
+>>>>>>> desktop 3/9 11:59 p
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CS012_PROJ.dir/depend.make
@@ -59,6 +66,7 @@ include CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj: ../BBoard.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\BBoard.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\BBoard.cpp
 
@@ -69,10 +77,23 @@ CMakeFiles/CS012_PROJ.dir/BBoard.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/BBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/BBoard.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\BBoard.cpp -o CMakeFiles\CS012_PROJ.dir\BBoard.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS012_PROJ.dir/BBoard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\BBoard.cpp.obj -c D:\projects\BBoardProject\BBoard.cpp
+
+CMakeFiles/CS012_PROJ.dir/BBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/BBoard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\BBoard.cpp > CMakeFiles\CS012_PROJ.dir\BBoard.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/BBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/BBoard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\BBoard.cpp -o CMakeFiles\CS012_PROJ.dir\BBoard.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/main.cpp.obj: ../main.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS012_PROJ.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\main.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\main.cpp
 
@@ -83,10 +104,23 @@ CMakeFiles/CS012_PROJ.dir/main.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\main.cpp -o CMakeFiles\CS012_PROJ.dir\main.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS012_PROJ.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\main.cpp.obj -c D:\projects\BBoardProject\main.cpp
+
+CMakeFiles/CS012_PROJ.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\main.cpp > CMakeFiles\CS012_PROJ.dir\main.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\main.cpp -o CMakeFiles\CS012_PROJ.dir\main.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 CMakeFiles/CS012_PROJ.dir/Message.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/Message.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/Message.cpp.obj: ../Message.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS012_PROJ.dir/Message.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Message.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\Message.cpp
 
@@ -97,10 +131,23 @@ CMakeFiles/CS012_PROJ.dir/Message.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Message.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\Message.cpp -o CMakeFiles\CS012_PROJ.dir\Message.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS012_PROJ.dir/Message.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Message.cpp.obj -c D:\projects\BBoardProject\Message.cpp
+
+CMakeFiles/CS012_PROJ.dir/Message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/Message.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\Message.cpp > CMakeFiles\CS012_PROJ.dir\Message.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/Message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Message.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\Message.cpp -o CMakeFiles\CS012_PROJ.dir\Message.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 CMakeFiles/CS012_PROJ.dir/User.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/User.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/User.cpp.obj: ../User.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CS012_PROJ.dir/User.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\User.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\User.cpp
 
@@ -111,10 +158,23 @@ CMakeFiles/CS012_PROJ.dir/User.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/User.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\User.cpp -o CMakeFiles\CS012_PROJ.dir\User.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CS012_PROJ.dir/User.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\User.cpp.obj -c D:\projects\BBoardProject\User.cpp
+
+CMakeFiles/CS012_PROJ.dir/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/User.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\User.cpp > CMakeFiles\CS012_PROJ.dir\User.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/User.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\User.cpp -o CMakeFiles\CS012_PROJ.dir\User.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj: ../Topic.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Topic.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\Topic.cpp
 
@@ -125,10 +185,23 @@ CMakeFiles/CS012_PROJ.dir/Topic.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/Topic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Topic.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\Topic.cpp -o CMakeFiles\CS012_PROJ.dir\Topic.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CS012_PROJ.dir/Topic.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Topic.cpp.obj -c D:\projects\BBoardProject\Topic.cpp
+
+CMakeFiles/CS012_PROJ.dir/Topic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/Topic.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\Topic.cpp > CMakeFiles\CS012_PROJ.dir\Topic.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/Topic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Topic.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\Topic.cpp -o CMakeFiles\CS012_PROJ.dir\Topic.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: CMakeFiles/CS012_PROJ.dir/flags.make
 CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: CMakeFiles/CS012_PROJ.dir/includes_CXX.rsp
 CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj: ../Reply.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Reply.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_PROJ\Reply.cpp
 
@@ -139,6 +212,18 @@ CMakeFiles/CS012_PROJ.dir/Reply.cpp.i: cmake_force
 CMakeFiles/CS012_PROJ.dir/Reply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Reply.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_PROJ\Reply.cpp -o CMakeFiles\CS012_PROJ.dir\Reply.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CS012_PROJ.dir/Reply.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS012_PROJ.dir\Reply.cpp.obj -c D:\projects\BBoardProject\Reply.cpp
+
+CMakeFiles/CS012_PROJ.dir/Reply.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS012_PROJ.dir/Reply.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\BBoardProject\Reply.cpp > CMakeFiles\CS012_PROJ.dir\Reply.cpp.i
+
+CMakeFiles/CS012_PROJ.dir/Reply.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS012_PROJ.dir/Reply.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\BBoardProject\Reply.cpp -o CMakeFiles\CS012_PROJ.dir\Reply.cpp.s
+>>>>>>> desktop 3/9 11:59 p
 
 # Object files for target CS012_PROJ
 CS012_PROJ_OBJECTS = \
@@ -162,7 +247,11 @@ CS012_PROJ.exe: CMakeFiles/CS012_PROJ.dir/build.make
 CS012_PROJ.exe: CMakeFiles/CS012_PROJ.dir/linklibs.rsp
 CS012_PROJ.exe: CMakeFiles/CS012_PROJ.dir/objects1.rsp
 CS012_PROJ.exe: CMakeFiles/CS012_PROJ.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CS012_PROJ.exe"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\projects\BBoardProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CS012_PROJ.exe"
+>>>>>>> desktop 3/9 11:59 p
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CS012_PROJ.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -175,6 +264,10 @@ CMakeFiles/CS012_PROJ.dir/clean:
 .PHONY : CMakeFiles/CS012_PROJ.dir/clean
 
 CMakeFiles/CS012_PROJ.dir/depend:
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\eddie\CLionProjects\CS012_PROJ C:\Users\eddie\CLionProjects\CS012_PROJ C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug C:\Users\eddie\CLionProjects\CS012_PROJ\cmake-build-debug\CMakeFiles\CS012_PROJ.dir\DependInfo.cmake --color=$(COLOR)
+=======
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\BBoardProject D:\projects\BBoardProject D:\projects\BBoardProject\cmake-build-debug D:\projects\BBoardProject\cmake-build-debug D:\projects\BBoardProject\cmake-build-debug\CMakeFiles\CS012_PROJ.dir\DependInfo.cmake --color=$(COLOR)
+>>>>>>> desktop 3/9 11:59 p
 .PHONY : CMakeFiles/CS012_PROJ.dir/depend
 

@@ -1,6 +1,11 @@
 //BBoard.h
 
 //Don't forget the inclusion guard!!
+<<<<<<< HEAD
+=======
+#ifndef __BBOARD_H__
+#define __BBOARD_H__
+>>>>>>> desktop 3/9 11:59 p
 
 #include <string>
 #include <vector>
@@ -8,6 +13,10 @@ using namespace std;
 
 #include "Topic.h"
 #include "User.h"
+<<<<<<< HEAD
+=======
+#include "Reply.h"
+>>>>>>> desktop 3/9 11:59 p
 
 class BBoard {
    
@@ -54,4 +63,14 @@ class BBoard {
     // These are only suggestions, not required helper functions.
     // Feel free to make your own private helper functions as you see fit.
     void display() const;
+<<<<<<< HEAD
 };
+=======
+
+    void addTopic();
+
+    void addReply();
+};
+
+#endif
+>>>>>>> desktop 3/9 11:59 p

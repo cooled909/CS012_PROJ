@@ -7,8 +7,12 @@ Reply::Reply() {
 
 }
 
+<<<<<<< HEAD
 Reply::Reply(const string &athr, const string &sbjct, const string &body, unsigned id) : Message(athr, sbjct, body,
                                                                                                  id) {
+=======
+Reply::Reply(const string &athr, const string &sbjct, const string &body, unsigned id) : Message(athr, sbjct, body, id) {
+>>>>>>> desktop 3/9 11:59 p
 
 }
 

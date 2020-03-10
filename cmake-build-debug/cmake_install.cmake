@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/eddie/CLionProjects/CS012_PROJ
+=======
+# Install script for directory: D:/projects/BBoardProject
+>>>>>>> desktop 3/9 11:59 p
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/eddie/CLionProjects/CS012_PROJ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "D:/projects/BBoardProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> desktop 3/9 11:59 p
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

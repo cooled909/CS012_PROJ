@@ -1,6 +1,12 @@
 //Message.h
 
 // Don't forget inclusion guard!!
+<<<<<<< HEAD
+=======
+#ifndef __MESSAGE_H__
+#define __MESSAGE_H__
+
+>>>>>>> desktop 3/9 11:59 p
 
 #include <string>
 #include <vector>
@@ -14,7 +20,11 @@ class Message {
 	string body;
 	unsigned id;
 	vector<Message * > childList;
+<<<<<<< HEAD
 	vector<string> futureChild;
+=======
+	vector<int> futureChild;
+>>>>>>> desktop 3/9 11:59 p
 
  public:
 
@@ -58,11 +68,22 @@ class Message {
     // returns the ID.
     unsigned getID() const; // New !!
 
+<<<<<<< HEAD
+=======
+    vector<int> returnVec() const;
+>>>>>>> desktop 3/9 11:59 p
 
     // Adds a pointer to the child to the parent's childList.
     void addChild(Message *child); // New !!
 
+<<<<<<< HEAD
     bool future(string futureChild);
 };
 
 //end inc guards
+=======
+    void future(vector<string> futureChild);
+};
+
+#endif//end inc guards
+>>>>>>> desktop 3/9 11:59 p
